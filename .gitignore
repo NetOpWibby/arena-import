@@ -1,4 +1,4 @@
-node_modules
+.DS_Store
 .env
-pinboard_export.json
-.yarn-cache
+Thumbs.db
+*.json
