@@ -30,3 +30,7 @@ deno run --allow-env --allow-net --allow-read import.ts
 ```
 
 This…is gonna take awhile (especially if you've been an an active Pinboard customer). Make sure your computer doesn't fall asleep.
+
+## Note
+
+Turns out, a channel with 9k+ bookmarks in it makes the site sluggish. You'll want to create channels for all your Pinboard tags and update the map function in `import.ts`. Are.na is more for collaborative bookmarking though, so this may not be the service to replace Pinboard.
