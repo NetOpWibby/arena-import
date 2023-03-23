@@ -36,7 +36,7 @@ try {
     currentBookmark++;
     console.log(`[${currentBookmark}/${pinboardExportSize}] ** ${bookmark.href}`);
     /// give the api a break…
-    await new Promise(resolve => setTimeout(resolve, 500));
+    await new Promise(resolve => setTimeout(resolve, 1500));
   }
 
   if (currentBookmark === pinboardExportSize)
